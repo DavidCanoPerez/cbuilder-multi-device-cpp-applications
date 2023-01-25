@@ -1,0 +1,24 @@
+
+Multi-Device C++ Applications
+        Android 32-bit
+        iOS Device 64-bit
+        Windows 32-bit
+        Windows 64-bit
+
+Varios paneles dentro del mismo form sin tener que renunciar al editor visual
+
+Importar proyecto en c++ builder
+        file, open project, *.cbproj
+
+Añadir notas al proyecto
+        file, new, other, other, text file
+        o
+        añadir archivo txt a la carpeta de proyecto y
+                     clicl derecho en project (ventana de proyecto), add...
+
+Asegurar exe "tipo static":
+        Es decir que no necesite dlls o librerias
+        que el exe pueda trasladarse a otro pc sin necesitar nada:
+                        https://community.embarcadero.com/article/technical-articles/149-tools/6881-how-do-i-create-a-standalone-application-in-cbuilder
+                proyect, options, c++ linker, desmarcar link with dynamic RTL
+                proyect, options, packages, runtime packages, desmarcar link with runtime packages
